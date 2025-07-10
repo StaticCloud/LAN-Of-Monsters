@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 textual = "*"
 textual-dev = "*"
+websockets = "*"
 
 [dev-packages]
 
