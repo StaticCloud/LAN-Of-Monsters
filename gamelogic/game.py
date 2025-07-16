@@ -4,6 +4,12 @@ from textual.widget import Widget
 from .grid import Grid
 
 class Game(Widget):
+    DEFAULT_CSS = """
+    Game {
+        border: solid red;
+        content-align: center middle;
+    }
+    """
 
     key = reactive("key")
 

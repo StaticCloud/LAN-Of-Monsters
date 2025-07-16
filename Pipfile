@@ -7,6 +7,7 @@ name = "pypi"
 textual = "*"
 textual-dev = "*"
 websockets = "*"
+argparse = "*"
 
 [dev-packages]
 
